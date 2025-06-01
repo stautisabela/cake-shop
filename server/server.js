@@ -7,10 +7,10 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors())
 
-app.get('/', (req, res) => {
-      res.send('Hello from our server!')
+app.get('/api', (req, res) => {
+      res.json({ "objectss": ["objOne", "objTwo", "objThree"] })
 })
 
 app.listen(PORT, () => {
-      console.log('server listening on port '+PORT)
+      console.log('Server running on port '+PORT)
 })
