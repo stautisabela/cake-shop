@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #FDF5E6;
+}
+
+.brand {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #8B0000;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+}
