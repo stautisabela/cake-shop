@@ -1,20 +1,15 @@
-body {
-    margin: 0;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 24px;
-    background-color: #FDF5E6;
+    padding: 12px 24px; /* vert x horiz  */ 
+    background-color: #FFEDA8;
 }
 
 .brand {
     text-decoration: none;
     font-size: 2rem;
-    color: #8B0000;
-    font-weight: bold;
+    color: #75070C;
 }
 
 .nav-links {
@@ -26,4 +21,27 @@ body {
     text-decoration: none;
     font-size: 1.2rem;
     color: #333;
+}
+
+/* Language dropdown */
+
+.dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+}
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+}
+.dropdown-item {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    color: #b4b4b4;
+}
+.dropdown-item:hover {
+    color: #6c2C25;
 }

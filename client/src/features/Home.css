@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0%
+}
+
+.cover {
+    background-image: url(../assets/butter-w-fork.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:780px;
+    object-fit:cover;
+}
+
+.intro {
+    background-color: #FFEDA8;
+}
+.about-us {
+    padding: 50px 300px;
+    font-size: 24px;
+}
+
+.how-to-order{
+    background-color: #75070C;
+    padding: 50px 300px;
+    color: #FDF5E6;
+}
+
+.services{
+
+}
+
+.services-list {
+    display: flex;
+}
+
+.order-steps {
+    display: flex;
+    flex-flow: row nowrap;
+    gap:50px;
+    justify-content: space-evenly;
+    padding-top:50px;
+}
+
+.order-step {
+    width: 33%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.order-step h2 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.order-step p {
+
+}
